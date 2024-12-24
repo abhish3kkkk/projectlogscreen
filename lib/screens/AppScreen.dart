@@ -34,9 +34,9 @@ class FirstScreenState extends State<FirstScreen>{
             width: double.maxFinite,
             decoration: BoxDecoration(
               shape: BoxShape.rectangle,
-              borderRadius: BorderRadius.circular(29),
+              borderRadius: BorderRadius.circular(30),
               gradient: LinearGradient(
-                colors: [Colors.black , Colors.white , Colors.black],
+                colors: [Colors.black , Colors.white , Colors.orange],
                 begin: Alignment.bottomRight,
                 end: Alignment.topCenter,
               ),
